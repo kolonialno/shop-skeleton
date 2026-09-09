@@ -1,13 +1,15 @@
 /* We have generated some color tokens for you! Feel free to use them in your solution, and adjust them to your liking. */
 :root {
-  --color-primary: #ffa424;
-  --color-primary-hover: #e89b1b;
+  --color-purple-darkest: #17001e;
+  --color-purple-darker: #1d1429;
+  --color-purple-dark: #261d35;
+  --color-purple-mid: #433d57;
+  --color-purple-light: #534c67;
 
-  --color-secondary: #8444c4;
-  --color-secondary-hover: #7734b9;
+  --color-orange: #ffa424;
+  --color-orange-dark: #e89b1b;
 
-  --color-background: #fff;
-
-  --color-text: #190f24;
-  --color-text-subdued: #484541;
+  --color-white: #ffffff;
+  --color-beige: #d8d2cb;
+  --color-coral: #ff6f59;
 }
