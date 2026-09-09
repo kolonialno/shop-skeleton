@@ -66,7 +66,7 @@ Add files and folders wherever it helps. Nothing here is fixed.
 
 ## Design
 
-Use the design in `designs/shop.png`  for inspiration.
+Use the designs in `designs/` for inspiration: `cart-empty.png` and `cart-filled.png`.
 
 ## Before you submit
 
