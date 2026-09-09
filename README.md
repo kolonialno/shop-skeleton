@@ -63,7 +63,10 @@ errors that floats bring, so keep prices in øre everywhere and format them only
 when you show them.
 
 Add files and folders wherever it helps. Nothing here is fixed. 
-you chose to cover.
+
+## Design
+
+Use the design in `designs/shop.png`  for inspiration.
 
 ## Before you submit
 
