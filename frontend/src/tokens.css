@@ -1,0 +1,13 @@
+/* We have generated some color tokens for you! Feel free to use them in your solution, and adjust them to your liking. */
+:root {
+  --color-primary: #ffa424;
+  --color-primary-hover: #e89b1b;
+
+  --color-secondary: #8444c4;
+  --color-secondary-hover: #7734b9;
+
+  --color-background: #fff;
+
+  --color-text: #190f24;
+  --color-text-subdued: #484541;
+}

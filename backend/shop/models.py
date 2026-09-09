@@ -1,0 +1,24 @@
+from django.db import models
+
+
+class Product(models.Model):
+    """Seeded from products.json. Money is stored as integer øre (3090 == 30,90 kr).
+
+    `id` is the id straight from products.json, so re-seeding updates rows
+    instead of duplicating them.
+    """
+
+    id = models.CharField(primary_key=True, max_length=64)
+    title = models.CharField(max_length=200)
+    subtitle = models.CharField(max_length=200, blank=True)
+    description = models.TextField(blank=True)
+    image = models.URLField(max_length=500)
+    price_ore = models.PositiveIntegerField()
+    # Set only when the product is discounted; price_ore is then the reduced price.
+    original_price_ore = models.PositiveIntegerField(null=True, blank=True)
+
+    def __str__(self):
+        return self.title
+
+
+# TODO: Add models here

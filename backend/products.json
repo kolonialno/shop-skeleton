@@ -1,0 +1,187 @@
+{
+  "products": [
+    {
+      "id": "sukkererter-150g",
+      "title": "Sukkererter",
+      "subtitle": "150 g · Opprinnelse: Peru / Egypt",
+      "price": 3990,
+      "original_price_ore": 4690,
+      "image": "https://images.oda.com/produkter/552edf9a-448e-40f9-a584-85560f621fb3.jpg?fit=bounds&format=auto&optimize=medium&width=728&s=0x5167674b6b6fec086198fd7d6de145c2827af4a8",
+      "description": "Flate og sprø sukkererter med mild, søt smak. Egner seg godt rå i salater eller lett woket."
+    },
+    {
+      "id": "store-paerer-conference-4-stk",
+      "title": "Store Pærer Conference",
+      "subtitle": "4 stk · Opprinnelse: Belgia / Nederland",
+      "price": 2390,
+      "image": "https://images.oda.com/local_products/77253648-d681-4443-97fa-a92d73a126d9.jpg?fit=bounds&format=auto&optimize=medium&width=1000&s=0x6c74878e3efb58dd0148f879e987a34922cec5d7",
+      "description": "Saftige Conference-pærer med fast konsistens og søt smak. Passer godt som snacks eller i desserter."
+    },
+    {
+      "id": "druer-gronne-stenfrie-kurv-500g",
+      "title": "Grønne druer, stenfrie",
+      "subtitle": "500 g · Opprinnelse: Brasil / Peru / Sør-Afrika",
+      "price": 4890,
+      "image": "https://images.oda.com/produkter/10b21a66-7025-4e00-ab8f-485b36ba721c.jpg?fit=bounds&format=auto&optimize=medium&width=1000&s=0xa020d65f9479b49393bbaada7ba33400a385b084",
+      "description": "Sprø, stenfrie grønne druer med frisk og søt smak. Perfekt som mellommåltid."
+    },
+    {
+      "id": "druer-rode-stenfrie-kurv-500g",
+      "title": "Røde druer, stenfrie",
+      "subtitle": "500 g · Opprinnelse: Namibia / Sør-Afrika / Peru",
+      "price": 4790,
+      "image": "https://images.oda.com/local_products/6e868b6c-a342-49c2-a8c1-ae20510b94c9.jpg?fit=bounds&format=auto&optimize=medium&width=1000&s=0x0af3cd689df818b1eea7ee20f05b96f3548a2cac",
+      "description": "Saftige røde, stenfrie druer med balansert sødme. Egner seg godt både alene og til ost."
+    },
+    {
+      "id": "mango-2-stk",
+      "title": "Mango",
+      "subtitle": "2 stk · Opprinnelse: Brasil",
+      "price": 7990,
+      "original_price_ore": 9490,
+      "image": "https://images.oda.com/produkter/8b09b909-e7c2-48b6-81c7-58385ff8ad93.jpg?fit=bounds&format=auto&optimize=medium&width=1000&s=0xaacdaa206a033d58a41262f1c0b78aca8bb95841",
+      "description": "Moden og aromatisk mango med søt smak og mykt fruktkjøtt. Klar til å spises."
+    },
+    {
+      "id": "avokado-modnet-2-stk",
+      "title": "Avokado, modnet",
+      "subtitle": "2 stk · Opprinnelse: Chile / Colombia / Kenya",
+      "price": 2900,
+      "original_price_ore": 3490,
+      "image": "https://images.oda.com/local_products/be2bde1e-99f7-438a-b7f9-d8d94ace00fc.jpg?fit=bounds&format=auto&optimize=medium&width=1000&s=0x954045d39467bb922ebef4e277044e5d63b9eb26",
+      "description": "Spiseklar avokado med kremet konsistens. Perfekt til pålegg, salater eller guacamole."
+    },
+    {
+      "id": "okologiske-bananer-1-kg",
+      "title": "Økologiske bananer",
+      "subtitle": "1 kg (ca. 5–6 stk) · Fairtrade · Ecuador / Peru",
+      "price": 3590,
+      "original_price_ore": 4290,
+      "image": "https://images.oda.com/local_products/f47bc8eb-6345-4337-ae5f-a127c4817dc7.jpg?fit=bounds&format=auto&optimize=medium&width=849&s=0xb35a435c0336a1fb7abc6c9d6f3df371c59e5d60",
+      "description": "Økologiske Fairtrade-bananer med naturlig sødme. Et godt valg til både barn og voksne."
+    },
+    {
+      "id": "gulrot-i-staver-180g",
+      "title": "Gulrotstaver",
+      "subtitle": "180 g · Opprinnelse: Norge",
+      "price": 2730,
+      "image": "https://images.oda.com/local_products/fdff8c8c-8247-4f48-b7ab-5f85d8dc2c04.jpg?fit=bounds&format=auto&optimize=medium&width=1000&s=0xcabbe3342f8ee7008cff696cc1eabd980e4ae389",
+      "description": "Ferske norske gulrøtter kuttet i staver. Klar til bruk som snacks eller til matpakken."
+    },
+    {
+      "id": "ekstra-stor-avokado-1-stk",
+      "title": "Ekstra stor avokado",
+      "subtitle": "1 stk · Opprinnelse: Colombia / Marokko / Chile",
+      "price": 5740,
+      "image": "https://images.oda.com/local_products/4d7371c4-31ec-42c7-8fb1-d8ec369fa17b.jpg?fit=bounds&format=auto&optimize=medium&width=750&s=0x9038508d0ee65866eb9dc9d8f0b6bdc76bca135b",
+      "description": "Stor, moden avokado med fyldig smak og kremet konsistens."
+    },
+    {
+      "id": "ekstra-sote-piccolo-cherry-klasetomater-200g",
+      "title": "Ekstra søte piccolo cherry klasetomater",
+      "subtitle": "200 g",
+      "price": 4936,
+      "image": "https://images.oda.com/local_products/ed1fa221-dddf-42cf-ae3c-3f4509084774.jpg?fit=bounds&format=auto&optimize=medium&width=1000&s=0x94ce7ae4801435fa4288ab5817587557f93e1a5a",
+      "description": "Små klasetomater med ekstra sødme og saftig konsistens. Ideelle til salater og snacks."
+    },
+    {
+      "id": "steinovnsbakt-grovbrod-620g",
+      "title": "Steinovnsbakt grovbrød",
+      "subtitle": "620 g · Oppskåret",
+      "price": 4990,
+      "image": "https://images.oda.com/produkter/ec7a4336-b425-4753-9673-aabf6e2cdb32.jpg?fit=bounds&format=auto&optimize=medium&width=1000&s=0xca0e18f87901648ae24fa1d865aec6005fc18654",
+      "description": "Grovbrød bakt i steinovn for ekstra smak og sprø skorpe. Ferdig oppskåret."
+    },
+    {
+      "id": "grove-fullkornsstykker-520g-8-stk",
+      "title": "Grove fullkornsstykker",
+      "subtitle": "520 g (8 stk)",
+      "price": 6490,
+      "image": "https://images.oda.com/local_products/9dd5250c-bad5-40eb-848f-bd33108491f3.jpg?fit=bounds&format=auto&optimize=medium&width=908&s=0xd294ce4626869e38831b94ee02cf4ab07cde76c3",
+      "description": "Små grove rundstykker bakt med fullkorn. Passer godt til frokost og matpakke."
+    },
+    {
+      "id": "havrebrod-620g",
+      "title": "Havrebrød",
+      "subtitle": "620 g · Oppskåret",
+      "price": 4490,
+      "original_price_ore": 5290,
+      "image": "https://images.oda.com/local_products/36a26e31-0d74-4b0d-8c96-02d72f53f808.jpg?fit=bounds&format=auto&optimize=medium&width=1000&s=0x3f262eb13f39f0d9c7c45d711cc2c39c53b47c6b",
+      "description": "Mykt brød bakt med havre for mild smak og god metthetsfølelse."
+    },
+    {
+      "id": "ekstra-grovt-brod-700g",
+      "title": "Ekstra grovt brød",
+      "subtitle": "700 g",
+      "price": 4190,
+      "image": "https://images.oda.com/local_products/6e180ce7-9b24-47ed-bda5-7514a9f17b36.jpg?fit=bounds&format=auto&optimize=medium&width=1000&s=0xd8b7dbaaa85d2d8ed98ff1a62c3a0129d5ec89b1",
+      "description": "Ekstra grovt brød med høyt fiberinnhold og kraftig smak."
+    },
+    {
+      "id": "barnas-brod-1-stk",
+      "title": "Barnas brød",
+      "subtitle": "1 stk",
+      "price": 3790,
+      "image": "https://images.oda.com/local_products/a08d7403-689b-4f21-9e2c-60189db39c0b.jpg?fit=bounds&format=auto&optimize=medium&width=1000&s=0x98504b03ff11fde1dbe0f6ef0ae9950901894e0e",
+      "description": "Mykt og mildt brød tilpasset barn. Lett å spise og populært i matpakken."
+    },
+    {
+      "id": "dansk-rugbrod-750g",
+      "title": "Dansk rugbrød",
+      "subtitle": "750 g",
+      "price": 5690,
+      "image": "https://images.oda.com/local_products/d6c77f63-8413-4bff-a405-6b0ab98398ee.jpg?fit=bounds&format=auto&optimize=medium&width=1000&s=0x94d5b79130f298069dd996c74a666bbb654cb8c2",
+      "description": "Tradisjonelt dansk rugbrød med surdeig og kraftig, fyldig smak."
+    },
+    {
+      "id": "okologiske-grove-baguetter-5-stk",
+      "title": "Økologiske grove baguetter",
+      "subtitle": "5 stk · Halvstekte",
+      "price": 11190,
+      "original_price_ore": 12990,
+      "image": "https://images.oda.com/local_products/2223de09-4105-4738-877b-fe64651b6c47.jpg?fit=bounds&format=auto&optimize=medium&width=1000&s=0x4fe344dc1e3e4a16138a63bb2312d267867a14b1",
+      "description": "Økologiske grove baguetter, halvstekte for enkel ferdigbaking hjemme."
+    },
+    {
+      "id": "leverpostei-original-100g-stabburet",
+      "title": "Leverpostei",
+      "subtitle": "Original · 100 g · Stabburet",
+      "price": 1690,
+      "image": "https://images.oda.com/local_products/c8197760-af86-4aaf-be0d-fc9f9e7d1b1d.jpg?fit=bounds&format=auto&optimize=medium&width=997&s=0x7293c587e8b894174a666525657137993c9b255a",
+      "description": "Original Stabburet leverpostei med klassisk smak siden 1949. Smøremyk, saftig og naturlig rik på jern."
+    },
+    {
+      "id": "salami-siliana-skivet-130g-gilde",
+      "title": "Salami Siliana, skivet",
+      "subtitle": "130 g · Gilde",
+      "price": 4220,
+      "image": "https://images.oda.com/local_products/d437f1f6-4f3d-4968-aba6-65ff1e85cbe4.jpg?fit=bounds&format=auto&optimize=medium&width=535&s=0x6a3a6d09ebe15cc0110b5d8d4e18e2dc785b9832",
+      "description": "Grovkvernet og smaksrik salami laget av norske kjøttråvarer. Perfekt som pålegg med kraftig smak."
+    },
+    {
+      "id": "grov-dansk-leverpostei-200g-tulip",
+      "title": "Grov dansk leverpostei",
+      "subtitle": "Ovnsbakt · 200 g · Tulip",
+      "price": 1668,
+      "original_price_ore": 2780,
+      "image": "https://images.oda.com/local_products/d91044dc-9576-4e82-9609-6b46cad7a567.jpg?fit=bounds&format=auto&optimize=medium&width=1000&s=0x27ef1d4091c05db215ad275987a78bceba3c5bdb",
+      "description": "Fyldig og grov leverpostei med rik smak. Like god kald som varm, til frokost eller matpakke."
+    },
+    {
+      "id": "skinkeost-tube-175g-kavli",
+      "title": "Skinkeost",
+      "subtitle": "Tube · 175 g · Kavli",
+      "price": 3630,
+      "image": "https://images.oda.com/local_products/7facc146-7f6e-4f1f-b462-1df8bcc222ea.jpg?fit=bounds&format=auto&optimize=medium&width=347&s=0x210279d5d95901ce557d814bc08a390ce12ee8d5",
+      "description": "Klassisk SkinkeOst laget av norsk hvitost og skinkebiter. Praktisk tube og naturlig rik på kalsium og protein."
+    },
+    {
+      "id": "kalkunkorv-450g-prior",
+      "title": "Kalkunkorv",
+      "subtitle": "450 g · Prior",
+      "price": 5230,
+      "image": "https://images.oda.com/local_products/b5cd0281-1a89-4e78-9f5f-865a6da79c65.jpg?fit=bounds&format=auto&optimize=medium&width=1000&s=0xdf158d190f4aa2f049b76fe9dd25dd8a91f63215",
+      "description": "Allsidig familiefavoritt som kan nytes både varm og kald. Laget av norske kjøttråvarer."
+    }
+  ]
+}
