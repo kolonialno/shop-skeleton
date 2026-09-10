@@ -69,8 +69,7 @@ Add files and folders wherever it helps. Nothing here is fixed.
 ## Design
 
 `designs/cart-empty.png` and `designs/cart-filled.png` show the shop with an empty
-and an active cart. Use them for inspiration. They show discounted prices and a
-"Du sparer" row — ignore those, discounts are out of scope.
+and an active cart. Use them for inspiration. 
 
 ## Before you submit
 
