@@ -14,11 +14,10 @@ class Product(models.Model):
     description = models.TextField(blank=True)
     image = models.URLField(max_length=500)
     price_ore = models.PositiveIntegerField()
-    # Set only when the product is discounted; price_ore is then the reduced price.
-    original_price_ore = models.PositiveIntegerField(null=True, blank=True)
 
     def __str__(self):
         return self.title
 
 
-# TODO: Add models here
+# TODO: An order, and the items on it. Give them real fields, then run
+# `makemigrations shop && migrate`.

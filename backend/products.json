@@ -5,7 +5,6 @@
       "title": "Sukkererter",
       "subtitle": "150 g · Opprinnelse: Peru / Egypt",
       "price": 3990,
-      "original_price_ore": 4690,
       "image": "https://images.oda.com/produkter/552edf9a-448e-40f9-a584-85560f621fb3.jpg?fit=bounds&format=auto&optimize=medium&width=728&s=0x5167674b6b6fec086198fd7d6de145c2827af4a8",
       "description": "Flate og sprø sukkererter med mild, søt smak. Egner seg godt rå i salater eller lett woket."
     },
@@ -38,7 +37,6 @@
       "title": "Mango",
       "subtitle": "2 stk · Opprinnelse: Brasil",
       "price": 7990,
-      "original_price_ore": 9490,
       "image": "https://images.oda.com/produkter/8b09b909-e7c2-48b6-81c7-58385ff8ad93.jpg?fit=bounds&format=auto&optimize=medium&width=1000&s=0xaacdaa206a033d58a41262f1c0b78aca8bb95841",
       "description": "Moden og aromatisk mango med søt smak og mykt fruktkjøtt. Klar til å spises."
     },
@@ -47,7 +45,6 @@
       "title": "Avokado, modnet",
       "subtitle": "2 stk · Opprinnelse: Chile / Colombia / Kenya",
       "price": 2900,
-      "original_price_ore": 3490,
       "image": "https://images.oda.com/local_products/be2bde1e-99f7-438a-b7f9-d8d94ace00fc.jpg?fit=bounds&format=auto&optimize=medium&width=1000&s=0x954045d39467bb922ebef4e277044e5d63b9eb26",
       "description": "Spiseklar avokado med kremet konsistens. Perfekt til pålegg, salater eller guacamole."
     },
@@ -56,7 +53,6 @@
       "title": "Økologiske bananer",
       "subtitle": "1 kg (ca. 5–6 stk) · Fairtrade · Ecuador / Peru",
       "price": 3590,
-      "original_price_ore": 4290,
       "image": "https://images.oda.com/local_products/f47bc8eb-6345-4337-ae5f-a127c4817dc7.jpg?fit=bounds&format=auto&optimize=medium&width=849&s=0xb35a435c0336a1fb7abc6c9d6f3df371c59e5d60",
       "description": "Økologiske Fairtrade-bananer med naturlig sødme. Et godt valg til både barn og voksne."
     },
@@ -105,7 +101,6 @@
       "title": "Havrebrød",
       "subtitle": "620 g · Oppskåret",
       "price": 4490,
-      "original_price_ore": 5290,
       "image": "https://images.oda.com/local_products/36a26e31-0d74-4b0d-8c96-02d72f53f808.jpg?fit=bounds&format=auto&optimize=medium&width=1000&s=0x3f262eb13f39f0d9c7c45d711cc2c39c53b47c6b",
       "description": "Mykt brød bakt med havre for mild smak og god metthetsfølelse."
     },
@@ -138,7 +133,6 @@
       "title": "Økologiske grove baguetter",
       "subtitle": "5 stk · Halvstekte",
       "price": 11190,
-      "original_price_ore": 12990,
       "image": "https://images.oda.com/local_products/2223de09-4105-4738-877b-fe64651b6c47.jpg?fit=bounds&format=auto&optimize=medium&width=1000&s=0x4fe344dc1e3e4a16138a63bb2312d267867a14b1",
       "description": "Økologiske grove baguetter, halvstekte for enkel ferdigbaking hjemme."
     },
@@ -163,7 +157,6 @@
       "title": "Grov dansk leverpostei",
       "subtitle": "Ovnsbakt · 200 g · Tulip",
       "price": 1668,
-      "original_price_ore": 2780,
       "image": "https://images.oda.com/local_products/d91044dc-9576-4e82-9609-6b46cad7a567.jpg?fit=bounds&format=auto&optimize=medium&width=1000&s=0x27ef1d4091c05db215ad275987a78bceba3c5bdb",
       "description": "Fyldig og grov leverpostei med rik smak. Like god kald som varm, til frokost eller matpakke."
     },

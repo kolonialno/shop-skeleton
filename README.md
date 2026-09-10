@@ -5,8 +5,8 @@ them to a cart, place an order.
 
 This is a starting point, not a working shop. The parts the assignment asks you to
 build are stubbed out and marked `TODO`. Everything around them — project config,
-dev server, API proxy, migrations, type definitions — is already wired up, so you
-can spend your time on the assignment instead of setup.
+dev server, API proxy, the `Product` model and its endpoint, type definitions — is
+already wired up, so you can spend your two hours on the assignment instead of setup.
 
 ## Prerequisites
 
@@ -33,11 +33,12 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5173. The Vite dev server proxies `/api` to Django, so the
-browser only ever talks to one origin and there's no CORS setup to worry about.
+Open http://localhost:5173. You should see the product count and an empty cart. The
+Vite dev server proxies `/api` to Django, so the browser only ever talks to one
+origin and there is no CORS setup to worry about.
 
 Run `seed_products` again whenever you change `products.json`. It updates the
-existing rows instead of duplicating them, so it's safe to repeat.
+existing rows instead of duplicating them, so it is safe to repeat.
 
 ## Layout
 
@@ -45,30 +46,34 @@ existing rows instead of duplicating them, so it's safe to repeat.
 backend/
   config/          settings, root urls, wsgi
   shop/
-    models.py      database models — Product is done, Order and OrderItem are yours
+    models.py      database models — Product is done, the order is yours
     views.py       request handlers: they take an HTTP request and return a response
     urls.py        maps a URL path to a view
     management/commands/seed_products.py   loads products.json into SQLite
   products.json    22 products, already here
 frontend/src/
-  App.tsx          owns products + cart state
+  App.tsx          fetches products, owns the cart state
   api.ts           fetch helpers for both endpoints
   types.ts         Product, Cart, OrderLine
   tokens.css       a small slice of Oda's design tokens
+  index.css        the two-column shell and the cart panel
   components/      ProductList.tsx and Cart.tsx
 ```
 
-NB! Money is stored as whole øre, so 3090 means 30,90 kr. Integers avoid rounding
-errors that floats bring, so keep prices in øre everywhere and format them only
-when you show them.
+NB! Money is stored as whole øre, so 3090 means 30,90 kr. Integers avoid the
+rounding errors that floats bring, so keep prices in øre everywhere and format them
+only when you show them.
 
-Add files and folders wherever it helps. Nothing here is fixed. 
+Add files and folders wherever it helps. Nothing here is fixed.
 
 ## Design
 
-Use the designs in `designs/` for inspiration: `cart-empty.png` and `cart-filled.png`.
+`designs/cart-empty.png` and `designs/cart-filled.png` show the shop with an empty
+and an active cart. Use them for inspiration. They show discounted prices and a
+"Du sparer" row — ignore those, discounts are out of scope.
 
 ## Before you submit
 
-Replace this README with your own: how to run the app, the technical choices and
-tradeoffs you made, and optionally how AI tools helped or got in the way.
+Replace this README with your own: how to run the app, what you cut or simplified to
+fit the two hours, what you would do next with more time, and where AI tools helped
+or got in the way.

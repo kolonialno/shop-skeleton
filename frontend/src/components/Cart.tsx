@@ -1,5 +1,12 @@
+import type { Product } from '../types'
 
-export default function Cart() {
-  // TODO: implement the cart
-  return <div>Cart</div>
+type Props = {
+  products: Product[]
+}
+
+export default function Cart({ products }: Props) {
+
+
+  // TODO: Implement the cart.
+  return <aside className="cart" />
 }

@@ -1,11 +1,13 @@
 from django.http import JsonResponse
-from django.views.decorators.csrf import csrf_exempt
+
+from .models import Product
+
+PRODUCT_FIELDS = ("id", "title", "subtitle", "description", "image", "price_ore")
 
 
 def products(request):
     """GET /api/products -> {"products": [...]}"""
-    # TODO: Implement
-    return JsonResponse({"products": []})
+    return JsonResponse({"products": list(Product.objects.values(*PRODUCT_FIELDS))})
 
 
-# Add any other view you need here.
+# TODO: A view that creates an order.

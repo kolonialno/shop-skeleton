@@ -23,7 +23,6 @@ class Command(BaseCommand):
                     "description": product.get("description", ""),
                     "image": product["image"],
                     "price_ore": product["price"],
-                    "original_price_ore": product.get("original_price_ore"),
                 },
             )
 
