@@ -5,12 +5,15 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.calculateEndPadding
 import androidx.compose.foundation.layout.calculateStartPadding
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.statusBars
+import androidx.compose.foundation.layout.windowInsetsTopHeight
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
@@ -52,7 +55,17 @@ fun ProductListScreen(
     onEvent: (ProductListEvent) -> Unit,
 ) {
     // TODO: The cart, and a way to get to it from here.
-    Scaffold(containerColor = MaterialTheme.colorScheme.background) { innerPadding ->
+    Scaffold(
+        containerColor = MaterialTheme.colorScheme.background,
+        topBar = {
+            Spacer(
+                Modifier
+                    .fillMaxWidth()
+                    .windowInsetsTopHeight(WindowInsets.statusBars)
+                    .background(MaterialTheme.colorScheme.background),
+            )
+        },
+    ) { innerPadding ->
         val layoutDirection = LocalLayoutDirection.current
         LazyVerticalGrid(
             columns = GridCells.Adaptive(minSize = 160.dp),
@@ -82,7 +95,7 @@ private fun ProductCard(product: Product) {
     ) {
         AsyncImage(
             model = product.image,
-            contentDescription = product.title,
+            contentDescription = null,
             contentScale = ContentScale.Fit,
             modifier = Modifier
                 .fillMaxWidth()
