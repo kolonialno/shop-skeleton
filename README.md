@@ -94,6 +94,10 @@ NB! Money is stored as whole øre, so 3090 means 30,90 kr. Integers avoid the
 rounding errors that floats bring, so keep prices in øre everywhere and format them
 only when you show them.
 
+NB! Django's CSRF check rejects every POST that arrives without a CSRF token, and
+neither app sends one. Put `@csrf_exempt` (from `django.views.decorators.csrf`) on
+the order view, or it answers 403.
+
 Add files and folders wherever it helps. Nothing here is fixed.
 
 ## Design
