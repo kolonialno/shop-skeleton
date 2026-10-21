@@ -6,7 +6,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # so the key has to exist.
 SECRET_KEY = "dev-only-not-secret"
 DEBUG = True
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+# 10.0.2.2 is how the Android emulator reaches this machine.
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "10.0.2.2"]
 
 INSTALLED_APPS = [
     "django.contrib.contenttypes",
